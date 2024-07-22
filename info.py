@@ -20,13 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TNmoviesHub_bot')
 API_ID = int(environ.get('API_ID', '23635334'))
 API_HASH = environ.get('API_HASH', '15527b6a0e728acb464eb219291ef99c')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6732132534:AAEm5qt1buUZ6rNXZc_uUEzPE9UEN_8PJFA')"Done! Congratulations on your new bot. You will find it at t.me/TNmoviesHub_bot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
-
-Use this token to access the HTTP API:6732132534:AAEm5qt1buUZ6rNXZc_uUEzPE9UEN_8PJFA
-Keep your token secure and store it safely, it can be used by anyone to control your bot.
-
-For a description of the Bot API, see this page: https://core.telegram.org/bots/api")
-
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://drive.google.com/file/d/18ReaPlPcDhcG5oc2ePrVpZO9BwoVcLJW/view?usp=sharing')).split() #SAMPLE PIC
