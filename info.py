@@ -17,10 +17,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'TNmoviesHub_bot')
+SESSION = environ.get('SESSION', 'NJ_MoviesBot.')
 API_ID = int(environ.get('API_ID', '23635334'))
 API_HASH = environ.get('API_HASH', '15527b6a0e728acb464eb219291ef99c')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6732132534:AAEm5qt1buUZ6rNXZc_uUEzPE9UEN_8PJFA')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7251699217:AAHvxutNsQ5G7OdAnVl1k_-n731Qp8_68UQ')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://drive.google.com/file/d/18ReaPlPcDhcG5oc2ePrVpZO9BwoVcLJW/view?usp=sharing')).split() #SAMPLE PIC
