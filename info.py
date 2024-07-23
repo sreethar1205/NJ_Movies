@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TNmoviesHub_bot')
 API_ID = int(environ.get('API_ID', '23635334'))
 API_HASH = environ.get('API_HASH', '15527b6a0e728acb464eb219291ef99c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', '6732132534:AAEm5qt1buUZ6rNXZc_uUEzPE9UEN_8PJFA')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://drive.google.com/file/d/18ReaPlPcDhcG5oc2ePrVpZO9BwoVcLJW/view?usp=sharing')).split() #SAMPLE PIC
