@@ -82,7 +82,7 @@ class TechVJXBot(Client):
                 yield message
                 current += 1
       
-TechVJBot = NJ_MoviesBot()
+TechVJBot = TechVJXBot()
 
 multi_clients = {}
 work_loads = {}
