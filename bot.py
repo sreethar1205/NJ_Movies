@@ -32,9 +32,9 @@ from aiohttp import web
 from plugins import web_server
 from plugins.clone import restart_bots
 
-from NJ_MoviesBot.bot import NJ_MoviesBot
-from NJ_MoviesBot.util.keepalive import ping_server
-from NJ_MoviesBot.bot.clients import initialize_clients
+from NJ_Movies.bot import NJ_MoviesBot
+from NJ_Movies.util.keepalive import ping_server
+from NJ_Movies.bot.clients import initialize_clients
 
 ppath = "plugins/*.py"
 files = glob.glob(ppath)
